@@ -8,7 +8,7 @@ num_5=int(input("enter fifth number"))
 input_list=[num_1,num_2,num_3,num_4,num_5]
 for elements in input_list:
      if elements % number == 0:
-          print(elements)
+          print("multiple of",number,"is",elements)
           continue
 print("no other multiples of", number, 'found')
           
